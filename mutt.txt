@@ -3,3 +3,8 @@ muthu@bambeeq-X55C:~$ mutt -s "hello" -a /home/muthu/var2.sh -- karthik.r@bambee
 
 send a file in mutt with attachement
 mutt -s "hello" -a /home/muthu/var1.sh -a /home/muthu/var2.sh -- haja.a@bambeeq.com
+
+
+
+iuagsdvskhfsihDAvbf
+adfjgbsd
