@@ -1,0 +1,78 @@
+
+1.https://thegeeksalive.com/linux-special-permissions/
+bash -- additional switch-case
+2.ACL
+3.sort 
+4.uniq
+4.sed
+5.awk
+6.runlevels in linux
+7.boot process in linux
+----------------------------------------------------
+SUID(4)u+s
+-----
+  It is used to protect the file in other user(ch passwd).  owner only any changes in file.
+  
+ SGID
+ -----
+    it is same as suid excep from when SGID is applied to directory when create the file in any directory is defaultly create local ownership
+    
+haja@bambbeq-X55C:~/muthu$ ls -l
+total 8
+-rw-r--r-- 1 root haja 6 Aug 28 11:57 haja1.txt
+-rw-r--r-- 1 root root 6 Aug 28 11:55 haja.txt
+haja@bambbeq-X55C:~/muthu$ 
+
+stickybit
+---------
+    it is used to protect the file in directory only owner only access
+    
+----------------------------------------------------------
+2.ACL
+-----
+    
+
+
+
+-------------------------------------------------------
+Sort
+----
+    sort command are used to sort the text in a count of character
+    
+----------------------------------------------------------
+4.sed
+-----
+Replacing all the occurrence of the pattern in a line:
+    root@bambbeq-X55C:~# sed 's/haja/muthu/g' index.html 
+
+    
+Duplicating the replaced line with /p flag
+    root@bambbeq-X55C:~# sed 's/haja/muthu/p' index.html 
+muthu hello rja raj
+muthu hello rja raj
+muthu he
+muthu he
+muthu hello 
+muthu hello 
+h
+
+muthu he
+muthu he
+muthu hello rja raj
+muthu hello rja raj
+muthu he
+muthu he
+muthu hello 
+muthu hello 
+h
+hagb
+
+1. To Delete a particular line say n in this example
+
+    root@bambbeq-X55C:~# sed '2d' index.html 
+
+root@bambbeq-X55C:~# sed '2,8d' index.html 
+
+
+6. To Delete pattern matching line
+
