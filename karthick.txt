@@ -1,0 +1,4 @@
+how to kill process
+killall processname
+killall opera
+
