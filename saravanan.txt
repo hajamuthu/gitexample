@@ -1,0 +1,26 @@
+1.make a back of any of the log for each minute
+2.needs1 to be placted in a destination folder ---- timestamp (range)
+and the folder should have only 60 files
+this script should be run every 5 min once
+all the log file should be in zip format
+
+-------------------------
+
+google drive upload
+
+
+-----------------------
+memory alert
+80 -- warning
+90 -- critical
+below 80 -- ok
+
+----------------------
+
+-----------------------------------------------------------
+1.make a back of any of the log for each minute?
+
+Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+
+
+
